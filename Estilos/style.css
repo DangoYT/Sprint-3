@@ -191,32 +191,36 @@ body {
   left: 260px;
 }
 
+.color_fondo {
+  color: red;
+}
 
-.pepito {
+
+.Span_error {
   position: absolute;
   top: 348px;
   left: 840px;
 }
 
-.pepito2 {
+.Span_error2 {
   position: absolute;
   top: 442px;
   left: 840px;
 }
 
-.pepito3 {
+.Span_error3 {
   position: absolute;
   top: 542px;
   left: 840px;
 }
 
-.pepito4 {
+.Span_error4 {
   position: absolute;
   top: 542px;
   left: 940px;
 }
 
-.pepito5 {
+.Span_error5 {
   position: absolute;
   top: 542px;
   left: 1040px;
@@ -232,6 +236,7 @@ body {
   .contenedor {
     display: flex;
     flex-direction: column;
+    width: 375px;
   }
   .img_fondo {
     background-image: url(../images/bg-main-mobile.png);
@@ -267,5 +272,35 @@ body {
     margin-left: 0px;
     margin-top: 20px;
     transform: scale(0.87);
+  }
+
+  .Span_error {
+   position: absolute;
+   left: 10px;
+   top: 70px;
+  }
+  
+  .Span_error2 {
+    position: absolute;
+    top: 165px;
+    left: 10px;
+  }
+  
+  .Span_error3 {
+    position: absolute;
+    top: 265px;
+    left: 5px;
+  }
+  
+  .Span_error4 {
+    position: absolute;
+    top: 265px;
+    left: 100px;
+  }
+  
+  .Span_error5 {
+    position: absolute;
+    top: 265px;
+    left: 200px;
   }
 }
